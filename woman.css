@@ -133,16 +133,14 @@ li
 
 
 /*Banière du bas*/
-#banner2
-{
+#banner2{
 	background-color: #001427;
 	flex: 2 1 40rem;
 	display: flex;
 	align-items: center;
 }
 
-#banner2 nav
-{
+#banner2 nav{
 	min-height: 7vh;
 	display: flex;
 	align-items: center;
@@ -151,8 +149,7 @@ li
 	padding: 1.5rem;
 }
 
-#banner2 nav ul
-{
+#banner2 nav ul{
 	display: flex;
 	flex: 1 1 40rem;
 	justify-content: space-around;
