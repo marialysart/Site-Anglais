@@ -1,0 +1,147 @@
+/*Site en Général*/
+a
+{
+	color: aliceblue;
+	text-decoration: none;
+}
+
+
+html
+{
+	font-family: 'Anek Latin', sans-serif;
+	text-align: center;
+	background: rgba(100, 102, 235, 0.459);
+}
+
+
+/*Banière principale*/
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.container 
+{
+	background: black;
+	color: aliceblue;
+}
+
+#logo
+{
+	flex: 2 1 40rem;
+	display: flex;
+	align-items: center;
+}
+
+#logo h1
+{
+	color: white;
+}
+
+.container nav
+{
+	min-height: 10vh;
+	display: flex;
+	align-items: center;
+	width: 90%;
+	margin: auto;
+	padding: 0.7rem;
+}
+
+.container nav ul
+{
+	display: flex;
+	flex: 1 1 40rem;
+	justify-content: space-around;
+	align-items: center;
+	list-style: none;
+}
+
+li
+{
+	font-size: 1rem;
+}
+
+/*Banière secondaire*/
+#banner
+{
+	min-height: 90vh;
+	background: linear-gradient(rgb(0, 0, 0, 0.6), transparent), url("Images/Magaz/InMr.jpg");
+	background-size: cover;
+	background-position: top;
+	opacity: 75% white;
+	opacity: 95%;
+	color: #ffffff;
+	display: flex;
+	flex-direction: column;
+	justify-content: column;
+	align-items: center;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+}
+
+#banner h1
+{
+	color: white;
+	font-size: 42px;
+	margin-top: 55%;
+}
+
+#banner button
+{
+	padding: 0.7rem 1.3rem;
+	font-size: 0.8rem;
+	text-size-adjust: 1.5rem;
+	cursor: pointer;
+	color: dimgrey;
+	border-color: white;
+	background-color: white;
+	opacity: 85%;
+	position: relative;
+	cursor: pointer;
+	transition: all .2s;
+}
+
+#banner button::after{
+	content: "";
+	background-color: darkturquoise;
+	opacity: 100%;
+	position: absolute;
+	transition: all .2s;
+}
+
+/*Banière du bas*/
+#banner2
+{
+	background-color: #001427;
+	flex: 2 1 40rem;
+	display: flex;
+	align-items: center;
+}
+
+#banner2 nav
+{
+	min-height: 7vh;
+	display: flex;
+	align-items: center;
+	width: 90%;
+	margin: auto;
+	padding: 1.5rem;
+}
+
+#banner2 nav ul
+{
+	display: flex;
+	flex: 1 1 40rem;
+	justify-content: space-around;
+	align-items: center;
+	list-style: none;
+}
+
+#banner2 nav ul li a{
+	color: whitesmoke;
+	font-size: 18px;
+	font-family: 'Source Sans Pro', sans-serif;
+}
